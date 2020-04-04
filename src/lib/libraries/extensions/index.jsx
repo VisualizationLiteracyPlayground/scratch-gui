@@ -53,7 +53,7 @@ export default [
     {
         name: 'VizBlocks',
         extensionId: 'vizblocks',
-        collaborator: 'Heng Yeow',
+        collaborator: 'SoC, NUS',
         iconURL: vizblocksIconURL,
         insetIconURL: vizblocksInsetIconURL,
         description: (
