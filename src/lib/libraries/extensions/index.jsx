@@ -58,7 +58,7 @@ export default [
         insetIconURL: vizblocksInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Viz Blocks"
+                defaultMessage="Create various graphs and charts."
                 description="Blocks used to create visualizations."
                 id="gui.extension.vizblocks.description"
             />

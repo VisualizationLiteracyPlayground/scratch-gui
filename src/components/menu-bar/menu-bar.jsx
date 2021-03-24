@@ -70,7 +70,7 @@ import remixIcon from './icon--remix.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 
-import scratchLogo from './scratch-logo.svg';
+import vizblocksLogo from './vizblocks-wordlogo.png';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -82,7 +82,7 @@ const ariaMessages = defineMessages({
     },
     tutorials: {
         id: 'gui.menuBar.tutorialsLibrary',
-        defaultMessage: 'Tutorials',
+        defaultMessage: 'Scratch Tutorials',
         description: 'accessibility text for the tutorials button'
     }
 });
@@ -322,7 +322,7 @@ class MenuBar extends React.Component {
                     <div className={styles.fileGroup}>
                         <div className={classNames(styles.menuBarItem)}>
                             <img
-                                alt="Scratch"
+                                alt="VizBlocks"
                                 className={classNames(styles.scratchLogo, {
                                     [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
                                 })}
@@ -755,7 +755,7 @@ MenuBar.propTypes = {
 };
 
 MenuBar.defaultProps = {
-    logo: scratchLogo,
+    logo: vizblocksLogo,
     onShare: () => {}
 };
 

@@ -27,7 +27,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
-    background-color: $motion-primary;
+    background-color: $vizblocks-primary;
     color: $ui-white;
 }
 
@@ -41,7 +41,8 @@
 }
 
 .scratch-logo {
-    height:  1.6rem;
+    height:  auto;
+    max-width: 8rem;
     vertical-align: middle;
 }
 
